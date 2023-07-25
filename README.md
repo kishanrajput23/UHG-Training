@@ -1,3 +1,5 @@
+# Notes
+
 ## C++ Static Field
 A field which is declared as static is called static field. Unlike instance field which gets memory each time whenever you create object, there is only one copy of static field created in the memory. It is shared to all the objects
 
