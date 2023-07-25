@@ -1,0 +1,33 @@
+--> What is a Pointer to an Array?
+The array pointer is an alternative name to a pointer to an array. We generally make use of this pointer for accessing the various components of any given array. 
+The pointer ptr basically focuses on the 0th component of any given array. Likewise, one can easily declare a point that is capable of pointing to a whole array rather than only a single array component.
+
+--> Declaration of a pointer to a 1D Array:
+data_type (*var_name)[size_of_array];
+
+Example: int (*ptr)[5];
+
+--> What is an Array of Pointers?
+It refers to an array of various pointer variables, also called the pointer arrays. One can easily create separate pointer variables pointing towards different ranges of values. 
+And we can also create a single integer array of pointers pointing towards all the available values.
+
+--> Declaration of an array of pointers:
+data_type *arrar_name[array_size];
+ 
+
+Example: int *arr[5];
+
+--> Difference Between a Pointer to an Array and Array of Pointers
+Pointer to an Array:
+- A user creates a pointer for storing the address of any given array.
+- It is alternatively known as an array pointer.
+- One can allocate these during the run time.
+- You cannot initialize a pointer to the definition.
+- It is dynamic in nature.
+
+Array of Pointers:
+- A user creates an array of pointers that basically acts as an array of multiple pointer variables.
+- These are alternatively known as pointer arrays.
+- One can allocate these during the compile time.
+- You can easily initialize an array at the definition level.
+- It is static in nature.

@@ -1,0 +1,60 @@
+1. Paranthesis checker: 
+Check whether the given expression is valid or not (only parenthesis symbol).
+
+Test Case: 1
+Input: "(( ))"
+Output: Valid
+
+Test Case: 2
+Input: "(("
+Output: Invalid
+
+2. Print the pattern If input is 5
+1
+3*2
+4*5*6
+10*9*8*7
+11*12*13*14*15
+
+3. Count the number of co-prime pairs in an array. (Any two numbers whose GCD is 1 are be called as co-prime)
+
+Input:
+The first line contains an integer T, total number of elements. Then follow T elements.
+
+Output:
+Count the number of co-prime pairs in an array.
+
+Constraints
+1 ≤ T ≤ 25
+1 ≤ elements ≤ 100
+
+Sample Input and Output:
+
+Input:
+1 2 3
+Output:
+3
+Here, Co-prime pairs are (1, 2), (2, 3), (1, 3)
+
+Input:
+4 8 3 9
+Output:
+4
+Here, Co-prime pairs are (4, 3), (8, 3), (4, 9 ), (8, 9 )
+
+4. Search index in a sorted array:
+Program to find the target value in a two-dimensional matrix.
+
+Input and Output:
+Get a target element and return its coordinates. If the value didn't exist, the program had to return (-1,-1). 
+First line of input is size of row and column, followed rc elements. 
+The third line of input is the element to be searched in the rxc matrix.
+
+Sample Input and Output:
+
+Input 1:
+4 2
+0 9 8 7 6 5 4 3
+3
+Output 1:
+(3, 1)

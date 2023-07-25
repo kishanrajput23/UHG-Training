@@ -1,0 +1,24 @@
+--> Real life example to explain types of inheritance.
+
+There are five types of inheritance:
+1. Single Inheritance
+2. Multiple Inheritance
+3. Multilevel Inheritance
+4. Hierarchical Inheritance
+5. Hybrid Inheritance
+
+#1 Single Inheritance
+In single inheritance, a class derives from one base class only. This means that there is only one subclass that is derived from one superclass.
+
+#2 Multiple Inheritance
+Multiple inheritance is a type of inheritance in which a class derives from more than one class. 
+In a real-life scenario, a child inherits from their father and mother. This can be considered an example of multiple inheritance.
+
+#3 Multilevel Inheritance
+In multilevel inheritance, a class is derived from another derived class. This inheritance can have as many levels as long as our implementation doesn’t go wayward.
+
+#4 Hybrid Inheritance
+Hybrid inheritance is usually a combination of more than one type of inheritance.
+
+#5 Hierarchical Inheritance
+In hierarchical inheritance, more than one class inherits from a single base class.

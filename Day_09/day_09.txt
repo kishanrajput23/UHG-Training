@@ -1,0 +1,12 @@
+1. Write a function that reads a sentence into a string and splits the sentence into words without using library functions.
+You have to do this without using the strok function.
+Since the delimiters are not specified you assume the default delimiters such as spaces, comma, tabs and newlines.
+You examine character by character and when you encounter a delimiter you have to terminate the word with the NULL character(\0).
+
+2. Write a function that removes all duplicate spaces from a sentence. 
+Your program should ensure that only one space exists between words.
+
+3. Write a function that uses character handling library functions to determine the number of upper case, lower case, digits, spaces and punctuation characters in the specified text
+
+4. Write a function that takes an array called scores and 2 pointer parameters min and max and determines the
+minimum and maximum values and returns them to the calling function.
