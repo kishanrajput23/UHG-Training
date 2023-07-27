@@ -1,0 +1,80 @@
+1. Security Key
+
+Description: A company is transmitting data to another server. The data is in the form of numbers. To secure the data during transmission, they plan to obtain a security key that will be sent along with the data. 
+The security key is identified as the count of the repeating digits in the data.
+
+Write an algorithm to find the security key for the data.
+
+Input:
+The input consists of an integer data, representing the data to be transmitted
+
+Output:
+Print an integer representing the security key for the given data. If no data is repeated it should
+
+Example
+Input : 578378923
+Outout: 3
+
+Eyplanation: The repeated digits in the data are 7, 8 and 3. So, the security key is 3.
+
+2. Encode as Number
+
+Description : A company wishes to encodes its data. The data is in the form of a number. They wish to encode the data with respect to a specific digit. 
+They wish to count the number of times the specific digit reoccurs in me given data so that they can encode the data accordingly. 
+
+Write an algorithm to find the count of the specitic digit in the given data.
+
+Input:
+The input consists of two space-separated integers- data and digit, representing the data to be
+encoded and the digit to be counted in the data.
+
+Output:
+Print an integer representing the count of the specific digit.
+
+Example
+Input:  572378233 3
+Outout: 3
+
+Explanation: The digit 3 is repeated three times in the data. So the output is 3.
+
+3. Sum of Adjacent Distances
+
+Description: Write a program to calculate and return the sum of distances between the adjacent numbers in an array or positive integers.
+
+Note: You are expected to write code in the find Total distance function only which receive the first parameter as the number of items in the array, 
+and second parameter as the array itself. You are not requested to take input from the console
+
+Example
+Finding the total distance between adjacent items of a list of 5 numbers
+Input:
+5
+10 11 7 12 14
+
+Output:
+12
+
+Explanation: The first parameters (5) is the size of the array next is an array of integers the total of distance is
+12 as per the calculation below.
+10-11=1
+11-7=4
+7-12=5
+12-14=2
+Total distance.1+4+5+2=12
+
+4. Odd Even Online Game
+
+Description: You are playing an online game. In the game, a list of N numbers is given. The player has to arrange the numbers so that all the odd numbers of the list come after the even numbers.
+
+Write an algorithm to arrange the given list such that all the odd numbers of the list come after the even numbers.
+
+Input:
+The first line of the input consists of an integer num, representing the size of the list (N).
+The second line of the input consists of N space-separated integers representing the values of the list.
+Output:
+Print N space-separated integers such that all the odd numbers of the list come after the even numbers
+
+Example
+Input:  10 98 3 33 12 22 21 11
+Output: 10 98 12 22 3 33 21 11
+
+Explanation: All the even numbers are placed before all the odd numbers.
