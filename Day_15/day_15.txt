@@ -1,0 +1,15 @@
+1. Read heights of all students in a class and arrange them in ascending order by satisfying the following conditions.
+
+(i) Use a function int find_min(int[], int) to find the smallest number from an array.
+
+(ii) Use int get_index(int[], int, int) to find index of a particular number from an array.
+
+(iii) Also verify entered variables 'number of students' and 'heights' are integer numbers or not.
+
+2.  Write a C++ program to create a class called Triangle that has private member variables for the lengths of its three sides. Implement member functions to determine if the triangle is equilateral, isosceles, or scalene.
+
+3. Write a C++ program to implement a class called Employee that has private member variables for name, employee ID, and salary. Include member functions to calculate and set salary based on employee performance. Use operator overloading concepts.
+
+4. Write a C++ program to implement a class called Shape with virtual member functions for calculating area and perimeter. Derive classes such as Circle, Rectangle, and Triangle from the Shape class and override virtual functions accordingly.
+
+5. Create your own code to explain the use of abstract class concept.
